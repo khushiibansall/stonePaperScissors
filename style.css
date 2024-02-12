@@ -1,0 +1,58 @@
+body{
+ margin: 0;
+    padding: 0;
+}
+#entry{
+    display: flex;
+    flex-direction: column;
+            justify-content: center;
+            align-items: center;
+}
+.button{
+    padding: 5px;
+    display: flex;
+    
+            justify-content: center;
+            align-items: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    width: 100px;
+    height: 100px;
+    margin: 10px; /* Adjust margin as needed */
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.button button#rock {
+    background-image: url('rock.png'); /* Adjust the path to your image */
+}
+
+.button button#paper {
+    background-image: url('paper.png'); /* Adjust the path to your image */
+}
+
+.button button#scissors {
+    background-image: url('scissors.png'); /* Adjust the path to your image */
+}
+
+
+#rock, #paper, #scissors{
+    margin: 25px 5px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    }
+    
+.icon {
+            width: 100px;
+            height: 100px;
+        }
+       
